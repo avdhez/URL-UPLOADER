@@ -2,10 +2,10 @@ import os
 
 class Config(object):
     # get a token from @BotFather
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6516567847:AAHO7hHOFWvtsI0dIt66W2bylEt-6J-yr1I")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
     # The Telegram API things
-    API_ID = int(os.environ.get("API_ID", "6989623"))
-    API_HASH = os.environ.get("API_HASH","077c18ef264de1c09a32ee2d5c00c79b")
+    API_ID = int(os.environ.get("API_ID", ""))
+    API_HASH = os.environ.get("API_HASH","")
     # Get these values from my.telegram.org
     # the download location, where the HTTP Server runs
     DOWNLOAD_LOCATION = "./DOWNLOADS"
